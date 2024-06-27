@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="user-info">
+            <img src="vaibhavi img.jpg" alt="User Avatar">
+            <span>Welcome back, Drax</span>
+        </div>
+        <ul>
+            <li>Search</li>
+            <li>Data Table</li>
+            <li>Product</li>
+            <li>Analytics</li>
+            <li>Calendar <span class="badge">15</span></li>
+            <li>Messenger</li>
+            <li>Crypto</li>
+        </ul>
+        <div class="sidebar-footer">
+            <button>Support</button>
+            <button>Sign Out</button>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <h1>Data Table</h1>
+            <input type="text" id="search" placeholder="Search Employee">
+            <button id="add-employee">Add Employee</button>
+        </header>
+        <div class="stats">
+            <div class="stat-box">
+                <p>Total Budget</p>
+                <h2>$85,125.00</h2>
+            </div>
+            <div class="stat-box selected">
+                <p>Monthly Budget</p>
+                <h2>$85,125.00</h2>
+            </div>
+            <div class="stat-box">
+                <p>Weekly Budget</p>
+                <h2>$85,125.00</h2>
+            </div>
+            <div class="stat-box">
+                <p>Today's Budget</p>
+                <h2>$85,125.00</h2>
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                    <th>Role</th>
+                </tr>
+            </thead>
+            <tbody id="employee-table-body">
+                
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
